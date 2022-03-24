@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Label</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="post">
+    <h1>Zoo Keeper Application Form</h1>
+<p>Please complete the form. Mandatory fields are marked with a </p>
+
+<fieldset>
+    
+    <legend>CONTACT DETAILS</legend>
+    <br><br>
+   
+    <label  for="name">Name</label>
+    <input type="text" id="name" name="name" required="required"/>
+     <br> <br>
+    <label for="tphone">Telephone</label>
+     <input type="text" name="tphone" id="tphone"/>
+     <br> <br>
+     <label  for="email">E-mail</label>
+     <input type="email" name="email" id="email"  required="required"/>
+</fieldset>
+<br><br>
+<fieldset>
+    <legend >PERSONAL INFORMATION</legend>
+    <br> <br>
+    <label for="age">Age</label>
+    <input  type="number" id="age" name="age" required="required" min="1" max="100"/>
+     <br><br>
+     <label for="Gender">Gender</label>
+   <select name="" id="Gender">
+       <option value="0" selected> Female</option>
+       <option value="1">Male</option>
+   </select>
+   <br><br>
+
+  <label for="letter">When did you first know you wanter to be a zoo-keeper?</label>
+  <br><br>
+  <textarea name="letter" id="letter" cols="30" rows="10"></textarea>
+</fieldset>
+<br><br>
+
+<fieldset>
+    
+<legend> PICK YOUR FAVORITE ANIMALS</legend>
+<br><br>
+<input type="checkbox" name="zebra" id="zebra">
+<label for="zebra">Zebra</label>
+<br><br>
+<input type="checkbox" name="cat" id="cat">
+<label for="cat">Cat</label>
+<br><br>
+<input type="checkbox" name="anaconda" id="anaconda">
+<label for="anaconda">Anaconda</label>
+<br><br>
+<input type="checkbox" name="human" id="human">
+<label for="human">Human</label>
+<br><br>
+<input type="checkbox" name="elephant" id="elephant">
+<label for="elephant">Elephant</label>
+<br><br>
+<input type="checkbox" name="wildebeest" id="wildebeest">
+<label for="wildebeest">Wildebeest</label>
+<br><br>
+<input type="checkbox" name="pigeon" id="pigeon">
+<label for="pigeon">Pigeon</label>
+<br><br>
+<input type="checkbox" name="crab" id="crab">
+<label for="crab">Crab</label>
+</fieldset>
+<br><br>
+<button type="submit">Submit Application</button>
+
+
+
+
+
+
+</form>
+
+
+
+
+</body>
+</html>
